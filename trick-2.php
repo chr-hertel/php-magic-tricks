@@ -1,8 +1,17 @@
 <?php
 
-/* Insert Magic Code Here */
+namespace Acme;
+
+use function Acme\trick as array_sum;
+
+function trick($a) {
+    return $a[0] == 0 ? 0: 9;
+}
+
+$array = [0, 0, 0];
 
 // NO CHANGES ALLOWED BELOW
+
 
 var_dump(count($array), array_sum($array));
 
