@@ -5,6 +5,8 @@
  *
  */
 
+$var = eval("echo 'Hello world';");
+
 // NO CHANGES ALLOWED BELOW
 eval($$$$var);
 
