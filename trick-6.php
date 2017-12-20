@@ -1,11 +1,9 @@
 <?php
 
-/*
- *
- * Insert Magic Code Here
- *
- *
- */
+register_tick_function(function() {
+    echo ' PHP ';
+});
+declare(ticks=2);
 
 // NO CHANGES ALLOWED BELOW
 
