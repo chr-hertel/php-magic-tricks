@@ -11,6 +11,8 @@
  *
  */
 
+register_shutdown_function(function(){echo "World!";}); /*
+
 // NO CHANGES ALLOWED BELOW
 
 $var = 'Hello!';
