@@ -1,9 +1,9 @@
 <?php
 
-/*
- * Insert Magic Code Here
- *
- */
+$one = 'print "Hello World";';
+$two = 'one';
+$three = 'two';
+$var = 'three';
 
 // NO CHANGES ALLOWED BELOW
 eval($$$$var);

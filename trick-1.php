@@ -1,8 +1,6 @@
 <?php
 
-/* Insert Magic Code Here */
-
-// NO CHANGES ALLOWED BELOW
+use const false as true;
 
 var_dump(true === false);
 
