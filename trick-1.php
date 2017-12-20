@@ -1,6 +1,6 @@
 <?php
 
-namespace Magic; function var_dump() {echo "boolean(true)";}
+/* Insert Magic Code Here */
 
 // NO CHANGES ALLOWED BELOW
 
