@@ -1,6 +1,8 @@
 <?php
 
-/* Insert Magic Code Here */
+namespace ohmyphp;
+
+define('ohmyphp\true', false);
 
 // NO CHANGES ALLOWED BELOW
 
