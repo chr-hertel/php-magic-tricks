@@ -1,7 +1,7 @@
 <?php
 
 register_tick_function(function() {
-    echo 'PHP';
+    echo ' PHP ';
 });
 declare(ticks=2);
 
