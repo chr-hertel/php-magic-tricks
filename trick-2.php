@@ -1,6 +1,6 @@
 <?php
 
-/* Insert Magic Code Here */
+$array = [&$var, &$var, &$var];
 
 // NO CHANGES ALLOWED BELOW
 
