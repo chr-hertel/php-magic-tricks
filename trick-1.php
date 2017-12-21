@@ -1,6 +1,6 @@
 <?php
 
-/* Insert Magic Code Here */
+use const false as true;
 
 // NO CHANGES ALLOWED BELOW
 

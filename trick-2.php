@@ -1,6 +1,18 @@
 <?php
 
-/* Insert Magic Code Here */
+$array = new class implements Countable {
+	public function count() {
+		$GLOBALS['array'] = [2 => new class {
+			public function __destruct() {
+				$GLOBALS['array'][2] = 6;
+			}
+			public function __toString() {
+				return '3';
+			}
+		}];
+		return 3;
+	}
+};
 
 // NO CHANGES ALLOWED BELOW
 
