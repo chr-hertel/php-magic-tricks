@@ -1,11 +1,11 @@
 <?php
 
-/*
- *
- * Insert Magic Code Here
- *
- *
- */
+declare(ticks=1);
+
+register_tick_function(function() {
+    static $count = 0;
+    echo 2 === ++$count ? ' PHP ':'';
+});
 
 // NO CHANGES ALLOWED BELOW
 
