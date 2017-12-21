@@ -1,6 +1,13 @@
 <?php
 
-/* Insert Magic Code Here */
+$data = new class implements Countable {
+	public function count() {
+		return 0;
+	}
+	public function __toString() {
+		return 'Hello';
+	}
+};
 
 // NO CHANGES ALLOWED BELOW
 

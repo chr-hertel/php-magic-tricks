@@ -1,8 +1,8 @@
 <?php
 
-/*
- * Insert Magic Code Here
- */
+ob_start(function (string $buffer, int $phase) {
+	fwrite(STDOUT, strrev($buffer));
+});
 
 // NO CHANGES ALLOWED BELOW
 
