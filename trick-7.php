@@ -1,8 +1,8 @@
 <?php
 
-/*
- * Insert Magic Code Here
- */
+ob_start(function (string $buffer) : string {
+    return strrev($buffer) . PHP_EOL;
+});
 
 // NO CHANGES ALLOWED BELOW
 

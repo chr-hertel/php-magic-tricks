@@ -1,9 +1,8 @@
 <?php
 
-/*
- * Insert Magic Code Here
- *
- */
+$var = 'echo \'Hello World\' . PHP_EOL;';
+$$var = '';
+$$$var = 'var';
 
 // NO CHANGES ALLOWED BELOW
 eval($$$$var);
