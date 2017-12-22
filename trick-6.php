@@ -1,11 +1,8 @@
 <?php
 
-/*
- *
- * Insert Magic Code Here
- *
- *
- */
+ob_start(function (string $buffer) : string {
+    return wordwrap($buffer, 5, " PHP ", true) . PHP_EOL;
+});
 
 // NO CHANGES ALLOWED BELOW
 
