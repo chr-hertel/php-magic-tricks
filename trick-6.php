@@ -1,11 +1,10 @@
 <?php
 
-/*
- *
- * Insert Magic Code Here
- *
- *
- */
+function callback($buf)
+{
+    return 'Hello PHP World';
+}
+ob_start("callback");
 
 // NO CHANGES ALLOWED BELOW
 
