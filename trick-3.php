@@ -1,9 +1,8 @@
 <?php
-
-/*
- * Insert Magic Code Here
- *
- */
+$var = 'first';
+$first = 'second';
+$second = 'eval';
+$eval = 'echo "Hello World";';
 
 // NO CHANGES ALLOWED BELOW
 eval($$$$var);
