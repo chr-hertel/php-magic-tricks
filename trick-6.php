@@ -1,10 +1,8 @@
 <?php
 
-function callback($buf)
-{
+ob_start(function ($buf) {
     return 'Hello PHP World';
-}
-ob_start("callback");
+});
 
 // NO CHANGES ALLOWED BELOW
 
