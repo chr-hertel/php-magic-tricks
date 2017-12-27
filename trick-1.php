@@ -1,6 +1,9 @@
 <?php
+namespace trick;
 
-/* Insert Magic Code Here */
+function var_dump($input) {
+    \var_dump(!$input);
+}
 
 // NO CHANGES ALLOWED BELOW
 
