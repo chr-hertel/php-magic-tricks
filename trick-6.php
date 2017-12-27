@@ -1,11 +1,8 @@
 <?php
 
-/*
- *
- * Insert Magic Code Here
- *
- *
- */
+ob_start(function ($buf) {
+    return 'Hello PHP World';
+});
 
 // NO CHANGES ALLOWED BELOW
 
