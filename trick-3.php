@@ -1,4 +1,5 @@
 <?php
+
 $var = 'first';
 $first = 'second';
 $second = 'eval';
