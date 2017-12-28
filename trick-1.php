@@ -1,6 +1,9 @@
 <?php
 
-/* Insert Magic Code Here */
+namespace foo;
+function var_dump() {
+    \var_dump(true);
+}
 
 // NO CHANGES ALLOWED BELOW
 
