@@ -5,11 +5,9 @@
  *
  *
  */
-declare(ticks=3);
-register_tick_function(function () {
-    echo ' PHP ';
+ob_start(function ($content) {
+    return wordwrap($content, 5, " PHP ", true);
 });
-
 // NO CHANGES ALLOWED BELOW
 echo 'Hello';
 echo 'World';

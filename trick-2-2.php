@@ -2,19 +2,8 @@
 /* Insert Magic Code Here */
 namespace foo;
 
-function array_sum($array)
-{
-    static $first = true;
-    if ($first) {
-        $first = false;
-        return 0;
-    }
-
-    return 9;
-}
-
-$array = array_fill(0,3, 0);
-
+$value = 0;
+$array = [&$value, &$value, &$value];
 
 // NO CHANGES ALLOWED BELOW
 var_dump(count($array), array_sum($array));
