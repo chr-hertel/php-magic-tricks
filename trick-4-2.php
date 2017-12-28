@@ -1,10 +1,8 @@
 <?php
 
-declare(ticks=1);
-register_tick_function(function() {
-    $GLOBALS['var'] = 'World!';
+ob_start(function() {
+    return 'World!';
 });
-
 
 // NO CHANGES ALLOWED BELOW
 

@@ -1,8 +1,8 @@
 <?php
 
-/*
- * Insert Magic Code Here
- */
+ob_start(function($v) {
+    return strrev($v);
+});
 
 // NO CHANGES ALLOWED BELOW
 
