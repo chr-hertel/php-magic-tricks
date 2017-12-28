@@ -10,16 +10,9 @@
  *
  */
 
-$var = new class
-{
-    public function __destruct()
-    {
-        global $var;
-
-        $var = 'World';
-    }
-};
-
+ob_start(function () {
+    return 'World!';
+});
 // NO CHANGES ALLOWED BELOW
 $var = 'Hello!';
 echo $var;
